@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+echo "
+Love2d tools for Termux
+Version: 0.1
+
+Usage: lovet [command]
+
+Commands:
+	run
+	create
+"
+
+exit 1
