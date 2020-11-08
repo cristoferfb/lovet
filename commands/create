@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+
+printf "Project name: "
+read project_name
+printf "Select a screen orientation:\n1. Landscape\n2. Portrait\nOption (1): "
+read project_orientation
+project_width=0
+project_height=0
+if [ $project_orientation -eq 2 ]; then
+    project_width=1080 
+    project_height=1920
+else
+    project_width=1920
+    project_height=1080
+fi
+mkdir $project_name
+mkdir $project_name/assets
+mkdir $project_name/assets/images
+mkdir $project_name/assets/sounds
+mkdir $project_name/assets/music
+sed -e "s/{project_name}/$project_name/" -e "s/{project_width}/$project_width/" -e "s/{project_height}/$project_height/" $LOVET_WORKD/templates/conf.lua > $project_name/conf.lua
+cp $LOVET_WORKD/templates/main.lua $project_name
+cp $LOVET_WORKD/templates/lovet.png $project_name/assets/images
