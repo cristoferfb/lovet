@@ -9,6 +9,7 @@ Usage: lovet [command]
 Commands:
 	run
 	create
+	help
 "
 
 exit 1
