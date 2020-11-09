@@ -8,6 +8,7 @@ Features
 - Generate ready to run projects
 - Automatic game.love generation
 - Automatic love2d android app call
+- APK generation
 - Plugins system (TODO)
 - Automatic prerequisites check (TODO)
 
