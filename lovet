@@ -1,6 +1,11 @@
 #!/usr/bin/env bash
 set -e
-export LOVET_WORKD=$(cd $(dirname $0) && pwd)
+
+if [[ $(type -P "lovet") ]]; then
+    export LOVET_WORKD=$HOME/../usr/lib/lovet
+else
+    export LOVET_WORKD=$(cd $(dirname $0) && pwd)
+fi
 
 case "$1" in
     create)
