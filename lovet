@@ -5,7 +5,10 @@ export LOVET_WORKD=$(cd $(dirname $0) && pwd)
 case "$1" in
     create)
         "$LOVET_WORKD/commands/create"
-	;;
+	    ;;
+    run)
+        "$LOVET_WORKD/commands/run"
+        ;;
     *)
         "$LOVET_WORKD/commands/help"
         ;;
