@@ -2,8 +2,9 @@
 
 printf "Project name: "
 read project_name
-printf "Select a screen orientation:\n1. Landscape\n2. Portrait\nOption (1): "
+printf "Select a screen orientation:\n1. Landscape\n2. Portrait\nOption [1]: "
 read project_orientation
+project_orientation=${project_orientation:-1}
 project_width=0
 project_height=0
 if [ $project_orientation -eq 2 ]; then
