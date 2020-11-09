@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 
-printf "Project name: "
+printf "Project name [test]: "
 read project_name
+project_name=${project_name:-test}
 printf "Select a screen orientation:\n1. Landscape\n2. Portrait\nOption [1]: "
 read project_orientation
 project_orientation=${project_orientation:-1}
