@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 
-zip -r game.love ./*
+lovet package
 mv game.love ~/storage/shared/
 am start -S -n "org.love2d.android/.GameActivity" -d "file:///sdcard/game.love"
