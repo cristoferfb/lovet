@@ -1,13 +1,14 @@
 #!/usr/bin/env bash
 
 echo "Love2d tools for Termux
-Version: 0.1
+Version: 0.2
 
 Usage: lovet [command]
 
 Commands:
-	run     Package and run project with android app
+	run     Package and run project  
 	create  Create a new project
+	package Package game to game.love file
 	*       Show this message  
 "
 
