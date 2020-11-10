@@ -38,6 +38,7 @@ Usage: lovet [command]
 Commands:
 	run     Package and run project with android app
 	create  Create a new project
+	package	Package game to game.love file
 	*       Show this message  
 ```
 
