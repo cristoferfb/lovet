@@ -4,6 +4,7 @@
 <p align="center">
 	<img src="https://img.shields.io/github/repo-size/cristoferfb/lovet?style=flat-square" />
 	<img src="https://img.shields.io/github/license/cristoferfb/lovet?style=flat-square" />
+	<img src="https://img.shields.io/github/v/release/cristoferfb/lovet?include_prereleases&style=flat-square" />
 </p>
 
 A CLI utility for improve love2d workflow in termux
