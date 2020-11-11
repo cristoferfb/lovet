@@ -1,7 +1,12 @@
-lovet
-==============================================================================
-A CLI utility for improve love2d workflow in termux
+<p align="center">
+	<img src="templates/lovet.png" height="130">
+</p>
+<p align="center">
+	<img src="https://img.shields.io/github/repo-size/cristoferfb/lovet?style=flat-square" />
+	<img src="https://img.shields.io/github/license/cristoferfb/lovet?style=flat-square" />
+</p>
 
+A CLI utility for improve love2d workflow in termux
 
 Features
 ------------------------------------------------------------------------------
